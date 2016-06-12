@@ -1,0 +1,116 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FE.Controladora", "FE.Controladora\FE.Controladora.vbproj", "{2E89E25B-1377-4F32-AE21-2980D3A57EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAExtensions", "..\RSAExtensions\RSAExtensions\RSAExtensions.csproj", "{056A2EB1-7902-44A4-98B6-64748E5D9BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedOpenSSL", "..\OpenSSL-net-0.5\ManagedOpenSsl\ManagedOpenSSL.csproj", "{73DCC218-655B-485F-8EAC-0CE5F2F7343D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FE.WS.FacturaElectronica.Cliente", "..\WSFE.Cliente\wsfev1_cliente\FE.WS.FacturaElectronica.Cliente.vbproj", "{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FE.WS.AccesoAutenticacion.Cliente", "..\WSAA.Cliente\ClienteLoginCms\FE.WS.AccesoAutenticacion.Cliente.vbproj", "{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://guidoquadrini.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FE.Controladora\\FE.Controladora.vbproj
+		SccProjectName1 = FE.Controladora
+		SccLocalPath1 = FE.Controladora
+		SccProjectUniqueName2 = ..\\RSAExtensions\\RSAExtensions\\RSAExtensions.csproj
+		SccProjectName2 = ../RSAExtensions/RSAExtensions
+		SccLocalPath2 = ..\\RSAExtensions\\RSAExtensions
+		SccProjectUniqueName3 = ..\\OpenSSL-net-0.5\\ManagedOpenSsl\\ManagedOpenSSL.csproj
+		SccProjectName3 = ../OpenSSL-net-0.5/ManagedOpenSsl
+		SccLocalPath3 = ..\\OpenSSL-net-0.5\\ManagedOpenSsl
+		SccProjectUniqueName4 = ..\\WSAA.Cliente\\ClienteLoginCms\\FE.WS.AccesoAutenticacion.Cliente.vbproj
+		SccProjectName4 = ../WSAA.Cliente/ClienteLoginCms
+		SccLocalPath4 = ..\\WSAA.Cliente\\ClienteLoginCms
+		SccProjectUniqueName5 = ..\\WSFE.Cliente\\wsfev1_cliente\\FE.WS.FacturaElectronica.Cliente.vbproj
+		SccProjectName5 = ../WSFE.Cliente/wsfev1_cliente
+		SccLocalPath5 = ..\\WSFE.Cliente\\wsfev1_cliente
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Release|x64.ActiveCfg = Release|Any CPU
+		{2E89E25B-1377-4F32-AE21-2980D3A57EB2}.Release|x86.ActiveCfg = Release|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Release|x64.ActiveCfg = Release|Any CPU
+		{056A2EB1-7902-44A4-98B6-64748E5D9BFD}.Release|x86.ActiveCfg = Release|Any CPU
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Debug|x64.ActiveCfg = Debug|x64
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Debug|x64.Build.0 = Debug|x64
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Release|x64.ActiveCfg = Release|x64
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Release|x64.Build.0 = Release|x64
+		{73DCC218-655B-485F-8EAC-0CE5F2F7343D}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Debug|x64.ActiveCfg = Debug|x86
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Debug|x86.ActiveCfg = Debug|x86
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Debug|x86.Build.0 = Debug|x86
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Release|Any CPU.ActiveCfg = Release|x86
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Release|Mixed Platforms.Build.0 = Release|x86
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Release|x64.ActiveCfg = Release|x86
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Release|x86.ActiveCfg = Release|x86
+		{9E8941BF-ADF7-4748-8DFD-C9FCF6ADB453}.Release|x86.Build.0 = Release|x86
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Release|x64.ActiveCfg = Release|Any CPU
+		{FC1035A9-A56A-4C80-9CE1-DBE0526C6F93}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
